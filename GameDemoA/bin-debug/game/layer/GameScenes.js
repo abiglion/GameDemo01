@@ -28,16 +28,20 @@ var GameScenes = (function (_super) {
         role.x = 720 / 2;
         role.y = 1280 - role.height / 2;
         this.addChild(role);
-        var btnL = new eui.Button;
-        btnL.width = 100;
-        btnL.height = 50;
-        btnL.label = "左";
-        this.addChild(btnL);
-        var btnR = new eui.Button;
-        btnR.width = 100;
-        btnR.height = 50;
-        btnR.label = "右";
-        this.addChild(btnR);
+        for (var i = 0; i < 10; i++) {
+            console.log(Math.random());
+        }
+        // let btnL = new eui.Button;
+        // btnL.width = 100;
+        // btnL.height = 50 ;
+        // btnL.label = "左";
+        // this.addChild(btnL);
+        // let btnR = new eui.Button;
+        // btnR.width = 100;
+        // btnR.height = 50 ;
+        // btnR.label = "右";
+        // btnR.x = 720-btnR.width;
+        // this.addChild(btnR);
     };
     return GameScenes;
 }(egret.Sprite));

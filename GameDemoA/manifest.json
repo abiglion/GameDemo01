@@ -13,7 +13,9 @@
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
 		"bin-debug/ThemeAdapter.js",
+		"bin-debug/game/comment/ComController.js",
 		"bin-debug/game/comment/GameConst.js",
+		"bin-debug/game/comment/Stone.js",
 		"bin-debug/game/layer/GameScenes.js"
 	]
 }
