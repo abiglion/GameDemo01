@@ -46,8 +46,8 @@ var LoadingUI = (function (_super) {
     LoadingUI.prototype.createView = function () {
         this.textField = new egret.TextField();
         this.addChild(this.textField);
-        this.textField.y = 300;
-        this.textField.width = 480;
+        this.textField.y = 600;
+        this.textField.width = 720;
         this.textField.height = 100;
         this.textField.textAlign = "center";
     };
