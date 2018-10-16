@@ -28,9 +28,9 @@ var GameScenes = (function (_super) {
         role.x = 720 / 2;
         role.y = 1280 - role.height / 2;
         this.addChild(role);
-        for (var i = 0; i < 10; i++) {
-            console.log(Math.random());
-        }
+        // for(let i = 0 ; i<10;i++){
+        //     console.log(Math.random());
+        // }
         // let btnL = new eui.Button;
         // btnL.width = 100;
         // btnL.height = 50 ;
